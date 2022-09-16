@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #1d1c1c;
+    line-height: 160%;
+
+}
+
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+    
+    
+}
+
+header{
+    margin-top: 32px;
+    height: calc(120px + 0px);
+    
+}
+
+header div{
+  width: 120px;
+  background-color: rgb(250, 0, 0);
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  padding: 4px;
+}
+
+header h2 {
+  color: rgb(255, 0, 0);
+  margin: auto;
+  width: 200px;
+  display: flex;
+  padding: 4px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+section div{
+  border: solid white;
+  background-color: rgb(250, 0, 0);
+  text-align: center;
+  margin-top: 24px;
+  font-size: x-large;
+  
+}
+
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#icons{
+  border: none;
+  background: none;
+}
+
+
+ul{
+  list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    align-content: center;
+    margin: auto;
+    
+
+}
+
+header div:hover{
+    transform: scale(1.1);
+}
+
+section div:hover{
+  transform: scale(1.1);
+}
+
+section ul li:hover{
+    transform: scale(1.1);
+}
